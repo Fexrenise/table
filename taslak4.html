@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>ZOO Keeper Application Form</h1>
+    <fieldset>
+        <legend><b>Contact Details</b></legend>
+        <table>
+            <tr>
+                
+                <td><p>Name</p></td>
+               <td>
+                   <form action="">
+                       <label for="">
+                           <input type="text" required>
+                       </label>
+                   </form>
+               </td>
+               <tr>
+               <td><p>Telefon</p></td>
+               <td>
+                   <form action="">
+                       <label for="">
+                           <input type="tel" >
+                       </label>
+                   </form>
+               </td>
+            </tr>
+            <tr>
+               <td><p>Email</p></td>
+               <td>
+                   <form action="">
+                       <label for="">
+                           <input type="email"  required>
+                       </label>
+                   </form>
+               </td>
+            </tr>
+        </table>
+    </fieldset>
+    <br>
+    <fieldset>
+        <legend><b>Personal İnformation</b></legend>
+        <table>
+            <tr>
+                <td>
+                    <p>Age</p>
+                </td>
+                <td>
+                    <label for="">
+                        <input type="text" required>
+                    </label>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                <P>Gender</P>
+                </td>
+                <td>
+                    <input list="browsers" name="browser" id="browser">
+                        <datalist id="browsers">
+                        <option value="Male">
+                        <option value="Famale">
+                        </datalist>
+                </td>
+            </tr>
+            <tr>
+                <td width="100px">
+                    <p>When did you first know you wanted to be a zoo-keeper?</p>
+                </td>
+                <td>
+                    <textarea name="" id="" cols="30" rows="10"></textarea>
+                </td>
+            </tr>
+        </table>
+    </fieldset>
+    <fieldset>
+        <legend>
+            <p><b>Pick Your Favorite Animals</b></p>
+        </legend>
+        <table>
+            <tr>
+        <td><input type="checkbox" name="animal" id="Zebra" />
+        <label for="animal"> Zebra </label></td>
+
+           <td> <input type="checkbox" name="animal" id="cat" />
+        <label for="animal"> Cat </label></td>
+            
+            <td><input type="checkbox" name="animal" id="anaconda" />
+        <label for="animal"> Anaconda </label></td>
+    
+            <td><input type="checkbox" name="animal" id="human" />
+        <label for="animal"> Human </label></td>
+    </tr>
+    </table>
+    <table>
+    <tr>
+            <td><input type="checkbox" name="animal" id="elephant" />
+        <label for="animal"> Elephant </label></td>
+            
+           <td> <input type="checkbox" name="animal" id="anaconda" />
+        <label for="animal"> Wildebeest </label></td>
+
+           <td> <input type="checkbox" name="animal" id="pigeon" />
+        <label for="animal"> Pigeon </label></td>
+
+            <td><input type="checkbox" name="animal" id="crab" />
+        <label for="animal"> Crab </label></td>
+        </tr>
+    </table>
+    </fieldset>
+    <br>
+    <button type="submit" > Submit Application </button>
+</body>
+</html>
